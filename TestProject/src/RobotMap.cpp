@@ -62,25 +62,7 @@ SerialPort* RobotMap::serial_port = NULL;
 
 
 
-#ifdef TESTSWERVE
-#define RATIO 2
 
-#define FRD 2
-#define FRP 1
-#define FRS 5
-
-#define FLD 1
-#define FLP 4
-#define FLS 8
-
-#define RRD 3
-#define RRP 3
-#define RRS 7
-
-#define RLD 4
-#define RLP 2
-#define RLS 6
-#else // comp bot
 #define RATIO 1
 
 #define FRD 3
@@ -98,7 +80,7 @@ SerialPort* RobotMap::serial_port = NULL;
 #define RLD 1
 #define RLP 3
 #define RLS 7
-#endif
+
 
 
 
